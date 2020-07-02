@@ -1,0 +1,17 @@
+package com.functional;
+
+import java.util.List;
+
+public class JavaStream {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	public static void ListValuePrinter(List<Integer> numbers) {
+		
+	}
+
+}

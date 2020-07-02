@@ -1,0 +1,31 @@
+package com.functional;
+
+import java.util.List;
+
+public class JavaStream {
+
+	public static void main(String[] args) {
+
+		ListValuePrinter(List.of(10, 20, 25, 259, 251, 35, 52, 15, 2165, 31,77,89));
+
+	}
+
+	/*public static void ListValuePrinter(List<Integer> numbers) {
+
+		numbers.stream().forEach(System.out::println);
+
+	}*/
+	
+	public static boolean isEven(int number) {
+		return number%2==0?true:false;
+	}
+
+	public static void ListValuePrinter(List<Integer> numbers) {
+
+		numbers
+		.stream()
+		.forEach(System.out::println);
+
+	}
+
+}
